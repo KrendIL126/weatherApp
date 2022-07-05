@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/drawable/ic_menu_background.xml" value="0.2625" />
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/drawable/ic_menu_foreground.xml" value="0.2625" />
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/layout/activity_options.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/layout/activity_weather.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/layout/custom_toast_layout.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/menu/custom_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/mipmap-anydpi-v26/ic_menu.xml" value="0.196" />
+        <entry key="..\:/Users/MasterKlass/AndroidStudioProjects/weatherApp/app/src/main/res/mipmap-anydpi-v26/ic_menu_round.xml" value="0.196" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/drawable/app_icon_background.xml" value="0.3275" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/drawable/img.xml" value="0.3275" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/layout/activity_libraries.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/layout/activity_options.xml" value="0.25" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/layout/activity_weather.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/layout/custom_toast_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/layout/toast_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/artem/AndroidStudioProjects/weatherApp/app/src/main/res/menu/custom_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

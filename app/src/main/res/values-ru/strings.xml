@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="options_menu_title">Настройки</string>
+    <string name="about_menu_title">О приложении</string>
+    <string name="libraries_menu_title">Сторонние библиотеки</string>
+
+    <string name="get_weather_button">Получить погоду</string>
+
+    <string name="city_weather_title">Город:</string>
+    <string name="description_weather_title">Погода:</string>
+    <string name="temperature_weather_title">Температура:</string>
+    <string name="feels_weather_title">Ощущается как:</string>
+    <string name="pressure_weather_title">Давление:</string>
+    <string name="humidity_weather_title">Влажность:</string>
+    <string name="wind_weather_title">Скорость ветра:</string>
+
+</resources>

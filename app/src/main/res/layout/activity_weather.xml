@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherActivity"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/weather_layout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Город"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/weather_act_city"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="36C"
+                android:textSize="36sp"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/weather_act_temperature"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/weather_act_day_img"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="День"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_layout_day_table">
+                <TableRow>
+                    <TextView
+                        android:text="@string/description_weather_title"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_day_status"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Температура, min:"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_day_temp_min"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Температура, max:"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_day_temp_max"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Вероятность выпадения осадков:"
+                        android:textSize="14sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_day_precipitation_probability"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="@string/wind_weather_title"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_day_wind_speed"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/weather_act_night_img"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ночь"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weather_layout_night_table">
+                <TableRow>
+                    <TextView
+                        android:text="@string/description_weather_title"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_night_status"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Температура, min:"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_night_temp_min"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Температура, max:"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_night_temp_max"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Вероятность выпадения осадков:"
+                        android:textSize="14sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_night_precipitation_probability"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="@string/wind_weather_title"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/weather_act_night_wind_speed"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="10dp" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="options_menu_title">Options</string>
+    <string name="about_menu_title">About</string>
+    <string name="libraries_menu_title">Side libraries</string>
+
+    <string name="get_weather_button">Get Weather</string>
+
+    <string name="city_weather_title">City:</string>
+    <string name="description_weather_title">Weather:</string>
+    <string name="temperature_weather_title">Temperature:</string>
+    <string name="feels_weather_title">Feels like:</string>
+    <string name="pressure_weather_title">Pressure:</string>
+    <string name="humidity_weather_title">Рumidity:</string>
+    <string name="wind_weather_title">Wind speed:</string>
+
+
+</resources>
